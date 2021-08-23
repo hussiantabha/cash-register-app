@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link href="https://cdn.statically.io/gh/ayshptk/html.css/main/flavor/white.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="hero container-center container">
+        <h2>Cash Register App</h2>
+        <p>Know how much change to return!</p>
+    </div>
+        <div id="inputVal">
+            <label>Enter the bill Amt</label>
+            <input id="billAmt" type="number" class="values">
+            <label>Cash Given</label>
+            <input id="cashGiven" type="number" class="values">
+            <button id="subBtn">Submit</button>
+        
+    </div>
+    <div id="disp">
+        <h2 id="dispErr"></h2>
+        <h2 id="dispMsg"></h2>
+    </div>
+    <div id="dispNee">
+        <table style="display: flex;" class="table-change">
+            <tr class="table-row">
+                <th>No of Notes</th>
+            <td class="dispNotes"></td>
+            <td class="dispNotes"></td>
+            <td class="dispNotes"></td>
+            <td class="dispNotes"></td>
+            <td class="dispNotes"></td>
+            <td class="dispNotes"></td>
+            <td class="dispNotes"></td>
+            <td class="dispNotes"></td>
+            <td class="dispNotes"></td>
+        </tr>
+            <th>Notes</th>
+            <td >2000</td>
+            <td >500</td>
+            <td >200</td>
+            <td >100</td>
+            <td >50</td>
+            <td >20</td>
+            <td >10</td>
+            <td >5</td>
+            <td >1</td>
+        </table>
+    </div>
+
+    <footer class="footer container-center">
+        <div class="footer-header">Connect with me On Socials</div>
+        <ul class="social-links">
+            <li class="item-list-inline "><a href="https://github.com/hussiantabha" class="navLinks remove-align">Github</a></li>
+            <li class="item-list-inline "><a href="https://www.linkedin.com/in/hussain-tabha-329b081a1/" class="navLinks remove-align">LinkedIn</a></li>
+            <li class="item-list-inline "><a href="https://twitter.com/hussain_tabha" class="navLinks remove-align">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
